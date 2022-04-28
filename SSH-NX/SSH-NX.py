@@ -12,7 +12,7 @@ st.sidebar.title('Sentiment analysis of airlines')
 st.sidebar.markdown("🛫We can analyse passengers review from this application.🛫")
 #loading the data (the csv file is in the same folder)
 #if the file is stored the copy the path and paste in read_csv method.
-data=pd.read_csv('Hackathon 2/external_labelled_tweets_clean.csv')
+data=pd.read_csv('external_labelled_tweets_clean.csv')
 #checkbox to show data 
 if st.checkbox("Show Data"):
     st.write(data.head(50))
